@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/flour.jpg);
+}
+.content{
+    padding:20px;
+}
+#header{
+    display:flex;
+    justify-content:right;
+    padding:3em;
+    background-color: black;
+    color: #ff9a04;
+    font-family:'Gluten', cursive;;
+    padding-bottom: 0%;
+}
+h2{
+    color: pink;
+    font-size: 30px;
+}
+.nav-link{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.cards{
+   margin:20px; 
+ background-color:black;
+}
+#form{
+    background-image: url("../images/pizza_bg.jpg");
+    font-family:'Gluten', cursive;;
+    background-color: black;
+    padding:2em;
+    color:white;
+}
+#footer{
+    background-color: tomato;
+}
