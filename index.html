@@ -39,7 +39,7 @@
                         <img src="images/Veggie_Paradise.jpg" class="card-img-top" alt="Veggie pizza">
                         <div class="card-body">
                             <h5 class="card-title">Veggie Paradise</h5>
-                            <p class="card-text">Some quick example text to build on the card title.</p>
+                            <p class="card-text"> Ksh 800</p>
                             <a href="#form" id="btn1" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
@@ -50,8 +50,8 @@
                         <img src="images/ChickenTikka.jpg" class="card-img-top" alt="ChickenTikka">
                         <div class="card-body">
                             <h5 class="card-title">ChickenTikka</h5>
-                            <p class="card-text">Some quick example text to build on the card title .</p>
-                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <p class="card-text">Ksh 800</p>
+                            <a href="#form" id="btn2" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -61,8 +61,8 @@
                         <img src="images/Ham.jpg" class="card-img-top" alt="Ham&Sausage pizza">
                         <div class="card-body">
                             <h5 class="card-title">Ham & Sausage</h5>
-                            <p class="card-text">Some quick example text to build on the card title .</p>
-                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <p class="card-text">Ksh 800</p>
+                            <a href="#form" id="btn3" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@
                         <img src="images/Pepper_Barbeque_&_Onion.jpg" class="card-img-top" alt="Barbeque & Onion">
                         <div class="card-body">
                             <h5 class="card-title">Barbeque & Onion</h5>
-                            <p class="card-text">Some quick example text to build on the card title.</p>
-                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <p class="card-text">Ksh 800</p>
+                            <a href="#form"id="btn4" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -86,8 +86,8 @@
                         <img src="images/Creamy_Paneer.jpg" class="card-img-top" alt="creamy paneer">
                         <div class="card-body">
                             <h5 class="card-title">Creamy Paneer</h5>
-                            <p class="card-text">Some quick example text to build on the card title .</p>
-                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <p class="card-text">Ksh 800</p>
+                            <a href="#form" id="btn5" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -97,8 +97,8 @@
                         <img src="images/Cheesy.jpg"class="card-img-top" alt="Cheesy pizza">
                         <div class="card-body">
                             <h5 class="card-title">Cheesy</h5>
-                            <p class="card-text">Some quick example text to build on the card title .</p>
-                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <p class="card-text">Ksh 800</p>
+                            <a href="#form" id="btn6" class="btn btn-primary">Order Now</a>
                         </div>
                     </div>
                 </div>
@@ -109,13 +109,13 @@
         <form class="row g-3">
             <div class="col-md-6">
               <label for="flavor" class="form-label">Choose Your Flavor</label>
-              <select class="form-select" required="">
-                <option value="vegtikka">Veggie Paradise</option>
+              <select class="form-select" id="flavor">
+                <option value="vegparadise">Veggie Paradise</option>
                 <option value="chickentikka">Chicken Tikka</option>
-                <option value="periperi">Ham & Sausage</option>
+                <option value="ham">Ham & Sausage</option>
                 <option value="bbq">BBQ & Onion</option>
-                <option value="boerewors">Creamy Paneer</option>
-                <option value="hawaiian">Cheesy</option>
+                <option value="creamy">Creamy Paneer</option>
+                <option value="cheesy">Cheesy</option>
               </select>
             </div>
             <div class="col-md-6">
@@ -130,9 +130,9 @@
               <label for="crust" class="form-label">Choose your favorite Crust:</label>
               <select class="form-control" id="crust" required="">
                 <option value="thin">Thin Crust @ Ksh. 100</option>
-                <option value="thick">Thick Crust @ Ksh. 150</option>
-                <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                <option value="custom">Custom Crust @ sh. 280</option>
+                <option value="thick">Crispy Crust @ Ksh. 150</option>
+                <option value="flatbread">Stuffed Crust @ sh. 180</option>
+                <option value="custom">Gluten-free Crust @ sh. 280</option>
               </select>
             </div>
             
@@ -161,13 +161,12 @@
               </div>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" name="order type"type="radio" id="delivery">
-                <label class="form-check-label" for="flexRadioDefault1">Delivery</label>
+                <label class="form-check-label" for="flexRadioDefault1">Delivery @150</label>
               </div>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" name="order type" type="radio" id="pickup" checked>
                 <label class="form-check-label" for="flexRadioDefault2">Pick Up</label>
               </div>
-              
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary">CheckOut</button>
@@ -175,6 +174,8 @@
           </form>  
     </div>
     
+
+    </div>
     <div class="row">
       <div id="footer">
       Footer
