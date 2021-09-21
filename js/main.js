@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     // Auto-selects pizza order on form
     $('#btn1').click(function() {
@@ -18,7 +19,39 @@ $(document).ready(function() {
       $('#btn6').click(function() {
         $('#flavor').val('cheesy');
       });
+
+//----- Business Logic-----
+
+      function calcPrice(){
+        const size = parseInt($( "select#size option:checked" ).val();
+        const toppings = $( "select#toppings option:checked" ).val();
+        const crust = parseInt($("#crust option:selected").val();
+        const cost = crust + toppings + size
+
+        $("#size").val();
+        switch("#size"){
+          case "Regular":
+             price = 600;
+             console.log(price);
+           break;
+           case "Medium":
+             price = 850;
+             console.log(price);
+           break;
+           case "Large":
+             price = 1200;
+             console.log(price);
+           default:
+             console.log("error"); 
+         }
+
+         co
+      }
+      
+        
 });
+
+
 
 /*------Modal--------------
 const toggleModal = () => {
