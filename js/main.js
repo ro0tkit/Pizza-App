@@ -44,8 +44,8 @@ $(document).ready(function() {
            default:
              console.log("error"); 
          }
-
-         co
+         alert("Your total amount is "+price+".Enjoy Your Meal!!")
+        
       }
       
         
