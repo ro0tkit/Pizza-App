@@ -44,9 +44,10 @@ $(document).ready(function() {
            default:
              console.log("error"); 
          }
-         alert("Your total amount is "+price+".Enjoy Your Meal!!")
-        
-      }
+         $('#checkout').click(function(){
+         alert("Your total amount is "+cost+".Enjoy Your Meal!!")
+         }
+        }
       
         
 });
